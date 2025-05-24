@@ -6,11 +6,11 @@ int main(){
 
     system("CLS");
 
-    //assingment operator (=)
+    //assingment operator (=), yaitu operator untuk menetapkan nilai dalam variabel
     a = 3;
     b = 5;
 
-   /* //arimatical operator(-,+,/, *, %)
+    //arimatical operator(-,+,/, *, %), yaitu untuk operator dalam matematika
     int tambah = a + b;
     int kurang = a - b;
     int kali = a * b;
@@ -23,7 +23,7 @@ int main(){
     cout<<"Hasil Pembagian : "<< bagi<<endl;
     cout<<"Hasil Modulo : "<< modulo<<endl; 
 
-    //relational operator
+    //relational operator, untuk menentukan membandingkan 2 nilai dan menentukan hubungan antara keduanya
     cout<<(a==b) <<endl;
     cout<<(a>b) <<endl;
     cout<<(a>=b) <<endl;
@@ -31,7 +31,7 @@ int main(){
     cout<<(a<=b) <<endl;
     cout<<(a!=b) <<endl; 
 
-    //Logicial Operator (&&,||,!)
+    //Logicial Operator (&&,||,!), yaitu untuk menggabungkan atau membandingkan kondisi dalam pernyataan. output yang di hasilkan true / false.
 
     cout << (true && true)<<endl;
     cout << (true && false)<<endl;
@@ -46,7 +46,7 @@ int main(){
     cout << (!true)<<endl;
     cout << (!false)<<endl;
 
-    //Bitwase operator(&,|,~,<<,>>) --> Operator biner
+    //Bitwase operator(&,|,~,<<,>>) --> Operator biner, digunakan untuk melakukan operasi langsung pada repesentasi biner dari angka.
     
     cout<< (5 & 7 )<<endl;
     cout<< (5 | 7 )<<endl;
@@ -68,15 +68,15 @@ int main(){
     a/=7; // a = a / 7
     cout<< a <<endl; 
 
-    //increment and decrement
-    //Pre Increment (Penambahan secara langsung)
+    //increment and decrement, yaitu di gunakan untuk menambah atau mengurangi nilai variabel.
+    //Pre Increment (Penambahan secara langsung), operator yang menambahkan nilai sebelum digunakan dalam ekspresi.
     cout << a << endl;
     cout << ++a <<endl;
 
     cout << b << endl;
     cout << ++b<< endl;
 
-    //post Increment
+    //post Increment, yaitu operator yang meningkatkan nilai variabel setelah digunakan dalam ekspresi.
     cout << a << endl;
     cout << a++ <<endl;
     cout << a << endl;
@@ -85,14 +85,14 @@ int main(){
     cout << b++ <<endl;
     cout << b << endl;*/
 
-    //Pre Decrement (Pengurangan secara langsung)
+    //Pre Decrement (Pengurangan secara langsung), yaitu  operator yang mengurangi nilai variabel sebelum digunakan dalam ekspresi.
     cout << a << endl;
     cout << --a <<endl;
 
     cout << b << endl;
     cout << --b<< endl;
 
-    //post Increment
+    //post decrement, yaitu  operator yang mengurangi nilai variabel setelah digunakan dalam ekspresi.
     cout << a << endl;
     cout << a-- <<endl;
     cout << a << endl;
@@ -100,7 +100,4 @@ int main(){
     cout << b << endl;
     cout << b-- <<endl;
     cout << b << endl;
-    
-
-
 }
