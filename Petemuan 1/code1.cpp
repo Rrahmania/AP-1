@@ -1,5 +1,5 @@
-#include <iostream> //header untuk c++
-#include <conio.h> //untuk getche() dan getch()
+#include <iostream> //header untuk c++, di gunakan untuk operasi output standar cin untuk memasukan inputan cout untuk menampilkan output.
+#include <conio.h> //untuk getche() dan getch(), untuk membaca input karakter dari keyboard tanpa perlu menekan Enter. 
 using namespace std; //untuk menghindari penggunaan std trlalu banyak
 int main(){
     string nama;
@@ -10,7 +10,7 @@ int main(){
 
     cout<<"masukan nama : ";
     
-   // cin>>nama;
+   // cin>>nama;, digunakan untuk mengambil input dari pengguna melalui keyboard.
    getline(cin, nama); //agar karakter spasi bisa terbaca
 
    cout<<"masukan kom kamu : ";
@@ -31,7 +31,7 @@ int main(){
     cout <<kom <<endl;
     cout <<nim <<endl;
     cout <<ip <<endl;
-    putchar(jeniskelamin); //untuk menampilkan karakter jenis kelamin
+    putchar(jeniskelamin); //untuk menampilkan karakter jenis kelamin, untuk mencetak satu karakter kelayar.
 
-    getch(); //karakter yang di ketik tidak ditampilkan
+    getch(); //karakter yang di ketik tidak ditampilkan di layar
 }
