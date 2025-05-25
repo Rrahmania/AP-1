@@ -19,7 +19,7 @@ void dooblevalue (int *a){
 int main(){
     system ("CLS");
 
-    //Deklarasi Pointer
+    //Deklarasi Pointer, variabel yang menyimpan dari alamat variabel lain.
     // int number = 35;
     // int *pointer_number = &number;
 
@@ -39,7 +39,7 @@ int main(){
     // cout << "Alamat memori variabel pointer_number = "<<&pointer_number<<endl;
     // cout << endl;
 
-    // Pointer in Array
+    // Pointer in Array, untuk mengakses elemen dalam array.
     // int num[] = {1, 2, 3, 4, 5};
     // int *pointer_num = num; //maksudnya secara default akan menunjuk ke index ke 0
     // cout << "Isi Variabel num= "<<num[0]<<endl;
@@ -57,7 +57,7 @@ int main(){
     // cout << "Alamat memori variabel pointer_num = "<<&pointer_num<<endl;
     // cout << endl;
 
-    // pointer int parameter
+    // pointer int parameter, digunakan sebagai parameter fungsi untuk mengubah nilai variabel di luar fungsi. 
     // int num1 = 5;
     // int num2 = 7;
     // penjumlahan(num1,num2);
@@ -67,7 +67,7 @@ int main(){
     // cout << num1 << endl;
     // cout << num2 << endl;
 
-    // pointer in pointer
+    // pointer in pointer, yaitu sebuah pointer menyimpan alamat dari pointer lain.
     // int score = 4;
     // int *pointer_score = &score;
     // int **ptr_pointer_score = &pointer_score;
@@ -76,7 +76,7 @@ int main(){
     // cout << "Isi dari Variabel Pointer_score " << pointer_score << " Isi variababel yang di tunjuk oleh pointer score " << *pointer_score << " alamat memory pointer_score " << &pointer_score<<endl;
     // cout << "Isi dari Variabel Pointer_score " << pointer_score << " Isi variababel yang di tunjuk oleh pointer score " << **ptr_pointer_score << " alamat memory ptr_pointer_score " << &ptr_pointer_score<<endl;
 
-    // Dynamic Pointer 
+    // Dynamic Pointer, penggunaan pointer untuk mengalokasikan dan mengelola memori secara dinamis saat program berjalan. 
 //     int *ptr = new int;
 //     *ptr = 30;
 //     cout << "Isi Variabel ptr = " <<*ptr<<" alamat variabel ptr = "<<&ptr<<endl;
