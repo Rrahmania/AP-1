@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    //vektor deklarasi dan inisialisasi
+    //vektor deklarasi dan inisialisasi, vector bekerja sama seperti array tapi lebih dinamis.
 
     vector<string> nama_karyawan = {"b","de","co"};
 
