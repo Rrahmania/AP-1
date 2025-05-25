@@ -42,7 +42,7 @@ int main(){
         cout << i <<endl;
     } while (i <= 0);*/
 
-    // Statment For
+    // Statment For, bila pernyataan for lebih dalam satu maka pernyataan" tersebut harus diletakan didalam kurung.
     // for (inisialisasi, kondisi, increase) 
     // for (int i = 1; i <= 10; i+=2) { //i + 2 
     //     cout<<"Hello World" << endl;
