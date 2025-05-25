@@ -3,7 +3,6 @@ using namespace std;
 
 void penjumlahan(int a, int b) {
     cout << a + b << endl;
-
 }
 
 void penjumlahanPointer (int *a, int *b){
