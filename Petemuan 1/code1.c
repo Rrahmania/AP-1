@@ -36,6 +36,4 @@ int main(){
 
     printf("press any button to conteniu ..");
     getch();
-
-
 }
