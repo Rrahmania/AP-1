@@ -17,7 +17,6 @@ void dooblevalue (int *a){
 
 int main(){
     system ("CLS");
-
     //Deklarasi Pointer, variabel yang menyimpan dari alamat variabel lain.
     // int number = 35;
     // int *pointer_number = &number;
