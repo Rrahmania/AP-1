@@ -2,13 +2,13 @@
 using namespace std;
 
 class ContohAkses {
-    private:
+    private: //Hanya dapat diakses dari dalam class itu sendiri.
     int privatevar;
 
-    protected:
+    protected: //Mirip dengan private, tetapi bisa diakses oleh class turunan.
     int protectedvar;
 
-    public:
+    public: //Dapat diakses dari mana saja, termasuk dari luar class.
     int pulblicvar;
 
     // constructor ngeset nilai dari awal
@@ -32,14 +32,14 @@ class turunan : public ContohAkses{
     void aksesProtected(){
         cout << protectedvar <<endl;
         cout << pulblicvar <<endl;
-    //     cout << privatevar <<endl;
+        cout << privatevar <<endl;
     }
 
 };
 
 int main(){
     ContohAkses obj;
-    obj.tampilkanSemua();
+    obj.tampilkanSemua(); //Memanggil fungsi untuk menampilkan semua variabel dalam class.
 
     cout<< "\nAkses dari luar class : "<<endl;
     // cout<<obj.privatevar<< endl;
@@ -48,7 +48,5 @@ int main(){
 
     cout <<"\n Akses dari Turunan "<<endl;
     turunan tur;
-    tur.aksesProtected();
-   
-
+    tur.aksesProtected(); // Memanggil fungsi dalam class turunan untuk mengakses protectedvar
 }
