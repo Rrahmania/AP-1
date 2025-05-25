@@ -25,7 +25,6 @@ int main(){
    cout <<"Masukan Jenis Kelamin (L/P) : ";
    jeniskelamin = getche(); //agar karakter langsung tampil jadi gak perlu tekan enter
 
-
     /*untuk output*/
     cout << "\n" << nama <<endl;
     cout <<kom <<endl;
