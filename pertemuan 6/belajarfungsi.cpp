@@ -8,8 +8,6 @@ void sapa(string nama) {
 
 int main(){
     string namaPengguna = "nia"; //parameter aktual
-
     sapa(namaPengguna); 
-
     return 0;
 }
