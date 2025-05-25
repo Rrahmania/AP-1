@@ -5,7 +5,6 @@ int main() {
     int nilai;
 
     system("CLS");
-
     cout<<"Masukan Nilai : ";
     cin>>nilai;
 
