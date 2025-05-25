@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    //aray declaration & intalation 
+    //aray declaration & intalation, tipe tersetruktur yang terdiri dari sejumlah komponen darai tipe data sama. 
     //2 cara membuat array
 
     // cara 1 : array kosong
@@ -21,7 +21,7 @@ int main(){
     // string nama[5] = {"Alya","Parul","auric","ual","ulan"};
     // string nama[] = {"Alya","Parul","auric","ual","ulan"};
 
-    //asending element in array
+    //asending element in array, untuk pengurutan elemen dalam array dari nilai terkecil ke terbesar.
     // cout<<nama[0]<<endl;
     // cout<<nama[0]<<endl;
     // cout<<nama[0]<<endl;
@@ -33,7 +33,7 @@ int main(){
     //     cout<<nama[i]<<endl;
     // }
 
-    // //Desending
+    //Desending, untuk pengurutan elemen dalam array dari nilai terbesar ke terkecil.
     // for (int i = 4; i > = 0; i--) {
     //     cout<<nama[i]<<endl;
     // }
@@ -65,7 +65,8 @@ int main(){
     //     cout << endl;
 
 
-    //string (array of characters)
+    //string (array of characters), indeks karakter yang ingin diambil.
+
     // string nama = "naufal";
     // cout<<nama[0]<<endl;
     // cout<<nama[2]<<endl;
@@ -89,7 +90,7 @@ int main(){
     // cout << s1.length()<<endl;
     // cout << (s1+ s2).length()<<endl;
 
-    // 4. s1substr(n,m)
+    // 4. s1substr(n,m), library untuk mengambil sebagian string dari indeks ke n dengan panjang ke m karakter.
     // cout<<s1.substr(2,4)<<endl;
     // cout<<(s1 + s2).substr(5,3)<<endl;
 
