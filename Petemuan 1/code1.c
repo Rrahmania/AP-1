@@ -6,7 +6,6 @@ int main(){
     int nim;
     char kom;
     float ip;
-
     printf("Hello World \n"); //keluaran pada c, untuk menampilkan kelayar
 
     printf("Masukan nama: ");
