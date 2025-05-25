@@ -44,9 +44,10 @@ for(int i = 0; i < n; i++){
 
     cout<<"Masukan ipk : ";
     cin>>mhs1.ipk;
-
+    
     mahasiswa.push_back(mhs1); //untuk menambahkan elemen ke akhir
 }
+    
 for (int i = 0; i < n; i++){
     cout << "Mahasiswa " << i + 1 <<endl;
     cout << "Nama : " << mahasiswa[i].nama<<endl;
