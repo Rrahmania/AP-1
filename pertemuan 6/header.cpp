@@ -20,6 +20,4 @@ int main () {
     double angka = 25.0;
     double akar = sqrt(angka);
     cout << "akar dari " << angka << "adalah" << akar << endl;
-
-
 }
