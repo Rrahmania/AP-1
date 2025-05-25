@@ -32,7 +32,6 @@ int main(){
     cout<<(a!=b) <<endl; 
 
     //Logicial Operator (&&,||,!), yaitu untuk menggabungkan atau membandingkan kondisi dalam pernyataan. output yang di hasilkan true / false.
-
     cout << (true && true)<<endl;
     cout << (true && false)<<endl;
     cout << (false && true)<<endl;
@@ -47,7 +46,6 @@ int main(){
     cout << (!false)<<endl;
 
     //Bitwase operator(&,|,~,<<,>>) --> Operator biner, digunakan untuk melakukan operasi langsung pada repesentasi biner dari angka.
-    
     cout<< (5 & 7 )<<endl;
     cout<< (5 | 7 )<<endl;
     cout<< (5 ^ 7 )<<endl;
@@ -55,7 +53,7 @@ int main(){
     cout<< (7 << 2 )<<endl;
     cout<< (7 >> 2 )<<endl;
 
-    // Shorthand
+    // Shorthand, merujuk pada cara penulisan kode yang lebih singkat dan efisien.
     a += 7; // a = a + 7
     cout<< a <<endl;
 
