@@ -87,6 +87,7 @@ int main() {
     // } else {
     //     cout <<"Ganjil sih" <<endl;
     // }
+    
     string chekNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
     cout <<nilai <<"tuh Bilangan nya" <<chekNum<<"sih"<<endl;
 }
