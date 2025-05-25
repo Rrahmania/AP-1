@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // penjumlahan matriks 2x2
+    // penjumlahan matriks 2x2, menggunakan array multidimensi.
     int matriks1[2][2];
     int matriks2[2][2];
     int hasil[2][2];
