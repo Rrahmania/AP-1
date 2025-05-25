@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-
     //aray declaration & intalation, tipe tersetruktur yang terdiri dari sejumlah komponen darai tipe data sama. 
     //2 cara membuat array
 
@@ -66,7 +65,6 @@ int main(){
 
 
     //string (array of characters), indeks karakter yang ingin diambil.
-
     // string nama = "naufal";
     // cout<<nama[0]<<endl;
     // cout<<nama[2]<<endl;
@@ -114,10 +112,5 @@ int main(){
     cout << "Nilai : ";
     for (int i = 0; i < nilai.size(); i++){
     }
-
-
-
-
-
 }
 
