@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "headerCostum.h" //buatan
+#include "headerCostum.h" //buatan sendiri yang dicostum.
 
 u;
 int jumlah (int a, int b){
