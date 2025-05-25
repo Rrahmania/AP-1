@@ -20,7 +20,7 @@ int main(){
     // cout<<"Umur : "<<mhs1.umur<<endl;
     // cout<<"IPK  :"<<mhs1.ipk<<endl;
 
-    Mahasiswa *ptrMhs = &mhs1;
+    Mahasiswa *ptrMhs = &mhs1; //Membuat pointer ptrMhs yang menunjuk ke objek mhs1.
     cout << "akses dengan -> : "<<endl;
     cout<<"Nama : "<<ptrMhs->nama<<endl;
     cout<<"Umur : "<<ptrMhs->umur<<endl;
