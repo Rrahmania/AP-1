@@ -63,7 +63,6 @@ int main(){
     //     }
     //     cout << endl;
 
-
     //string (array of characters), indeks karakter yang ingin diambil.
     // string nama = "naufal";
     // cout<<nama[0]<<endl;
