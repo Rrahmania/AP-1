@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-string namaGlobal = "Ilmu"; //global bisa diakses dimana aja
+string namaGlobal = "Ilmu"; //global bisa diakses dimana aja.
 
 void namaVariabel(){ //lokal
     string namaLokal = "komputer";
